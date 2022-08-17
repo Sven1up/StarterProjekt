@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+#navigation > ul {
+    list-style-type: none;
+}
+
+#navigation > ul > li {
+    display: inline-block;
+    width: 30%;
+}
+
+nav{
+    background-color: Black;
+    padding: 2px
+}
+
+.Galeries{
+    color: Green;
+    text-decoration: none;
+    font-family: arial;
+}
+
+.home{
+    color: Green;
+    text-decoration: none;
+    font-family: arial;
+}
+
+/* search field */
+form.search input[type=text] {
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid grey;
+    float: left;
+    width: 200px;
+    background: #f1f1f1;
+    height: 30px;
+}
+
+form.search button {
+    width: 20%;
+    padding: 5px;
+    background: #32CD32;
+    color: White;
+    font-size: 13px;
+    border: 1px solid grey;
+    border-left: none;
+    height: 30px;
+}
+
+form.search button:hover {
+    background: #006400;
+}
+
+/*Bilder*/
+.veggiesimg{
+    padding-top: 20px;
+    width: 800px;
+    display: block;
+    margin-left: 50px;
+    margin-right: 80px;
+}
+
+div.gallery {
+    border: 2px solid Black;
+    padding: 30px;
+    margin: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url("Bilder/brokkoli.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+
