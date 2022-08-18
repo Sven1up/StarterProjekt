@@ -20,12 +20,15 @@
     position: relative;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
 }
 
 nav{
     background-color: Black;
-    padding: 2px
+    padding: 2px;
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
 }
 
 /* --- Burger --- */
@@ -33,7 +36,9 @@ nav{
     display: flex;
     flex-direction: column;
     cursor: pointer;
-
+    background-color: transparent;
+    border: 0;
+    align-self: center;
 }
 
 .burger > span {
@@ -46,7 +51,7 @@ nav{
 
 .line {
     fill: none;
-    stroke: black;
+    stroke: white;
     stroke-width: 3;
     transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
     stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -68,6 +73,7 @@ nav{
     stroke-dasharray: 24 200;
     stroke-dashoffset: -47;
 }
+
 .opened .line2 {
     stroke-dasharray: 1 60;
     stroke-dashoffset: -30;
@@ -78,7 +84,7 @@ nav{
 }
 
 
-/* --- Nav punkte --- */
+/* --- Nav Punkte --- */
 .Galeries{
     color: Lime;
     text-decoration: none;
