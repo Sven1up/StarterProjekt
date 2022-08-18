@@ -6,13 +6,21 @@
 /* --- Nav leiste und buttons --- */
 #navigation > ul {
     list-style-type: none;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+
 }
 
 #navigation > ul > li {
-    display: inline-block;
-    width: 30%;
-    display: block;
+    display: flex;
     position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }
 
 nav{
@@ -23,11 +31,7 @@ nav{
 /* --- Burger --- */
 .burger {
     display: flex;
-    position: absolute;
-    right: 30px;
-    top: 16px;
     flex-direction: column;
-    width: 30px;
     cursor: pointer;
 
 }
@@ -43,36 +47,34 @@ nav{
 .line {
     fill: none;
     stroke: black;
-    stroke-width: 6;
+    stroke-width: 3;
     transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
     stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .line1 {
-    stroke-dasharray: 60 207;
-    stroke-width: 6;
+    stroke-dasharray: 24 200;
 }
+
 .line2 {
-    stroke-dasharray: 60 60;
-    stroke-width: 6;
+    stroke-dasharray: 24 60;
 }
+
 .line3 {
-    stroke-dasharray: 60 207;
-    stroke-width: 6;
+    stroke-dasharray: 24 100;
 }
+
 .opened .line1 {
-    stroke-dasharray: 90 207;
-    stroke-dashoffset: -134;
-    stroke-width: 6;
+    stroke-dasharray: 24 200;
+    stroke-dashoffset: -52;
 }
 .opened .line2 {
     stroke-dasharray: 1 60;
     stroke-dashoffset: -30;
-    stroke-width: 6;
 }
 .opened .line3 {
-    stroke-dasharray: 90 207;
-    stroke-dashoffset: -134;
-    stroke-width: 6;
+    stroke-dasharray: 24 200;
+    stroke-dashoffset: -200;
 }
 
 
@@ -170,7 +172,6 @@ form.search button:hover {
 }
 
 /* --- Image container --- */
-
 .flex-container{
     flex-direction: row;
     justify-content: center;
@@ -179,3 +180,34 @@ form.search button:hover {
     flex-wrap: wrap;
 
 }
+
+/* --- Footer --- */
+
+footer
+{
+    background-color: black;
+    font-size:15px;
+    color:white;
+    font-family: arial;
+    text-indent: 10px;
+    text-decoration: none;
+}
+footer a:hover
+{
+    color:#32CD32;
+    text-decoration:none;
+}
+
+.footerhyp{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+
+h6 {
+    padding-top: 20px;
+    font-family: arial;
+    font-size: 20px;
+}
+
+
