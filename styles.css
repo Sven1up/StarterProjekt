@@ -3,7 +3,7 @@
 }
 
 
-/* Nav leiste und buttons */
+/* --- Nav leiste und buttons --- */
 #navigation > ul {
     list-style-type: none;
 }
@@ -11,6 +11,8 @@
 #navigation > ul > li {
     display: inline-block;
     width: 30%;
+    display: block;
+    position: relative;
 }
 
 nav{
@@ -18,6 +20,63 @@ nav{
     padding: 2px
 }
 
+/* --- Burger --- */
+.burger {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    top: 16px;
+    flex-direction: column;
+    width: 30px;
+    cursor: pointer;
+
+}
+
+.burger > span {
+    color: white;
+    height: 10px;
+    border-bottom: 1px solid white;
+}
+
+/* --- Animation --- */
+
+.line {
+    fill: none;
+    stroke: black;
+    stroke-width: 6;
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.line1 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+}
+.line2 {
+    stroke-dasharray: 60 60;
+    stroke-width: 6;
+}
+.line3 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+}
+.opened .line1 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
+}
+.opened .line2 {
+    stroke-dasharray: 1 60;
+    stroke-dashoffset: -30;
+    stroke-width: 6;
+}
+.opened .line3 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
+}
+
+
+/* --- Nav punkte --- */
 .Galeries{
     color: Lime;
     text-decoration: none;
@@ -32,7 +91,7 @@ nav{
     font-size: 20px;
 }
 
-/* Button hover */
+/* --- Button hover --- */
 .Galeries:hover{
     background-color: Green;
 }
@@ -41,7 +100,7 @@ nav{
     background-color: Green;
 }
 
-/* Formular */
+/* --- Formular --- */
 form.search input[type=text] {
     padding: 5px;
     font-size: 15px;
@@ -67,7 +126,7 @@ form.search button:hover {
     background: #006400;
 }
 
-/*Bilder*/
+/* --- Bilder --- */
 .veggiesimg{
     padding-top: 20px;
     display: block;
@@ -80,40 +139,43 @@ form.search button:hover {
     width: calc(100vw - 130px);
 }
 
-div.gallery {
+.gallery {
     border: 2px solid Black;
     padding: 30px;
     margin: 50px;
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    overflow: hidden;
+    flex-basis: auto;
+
 }
 
-div.gallery:hover {
+/* --- Hover --- */
+.gallery:hover{
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
 }
 
-div.gallery:hover {
+.gallery:hover {
     border: 1px solid #777;
 }
 
-div.gallery img {
+.gallery img {
     width: 100%;
     height: auto;
 }
 
-/*Image container*/
+/* --- Image container --- */
 
 .flex-container{
     flex-direction: row;
     justify-content: center;
     column-gap: 20px;
     display: flex;
+    flex-wrap: wrap;
 
 }
-
-
