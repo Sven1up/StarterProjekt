@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }
 
+
+/* Nav leiste und buttons */
 #navigation > ul {
     list-style-type: none;
 }
@@ -17,18 +19,29 @@ nav{
 }
 
 .Galeries{
-    color: Green;
+    color: Lime;
     text-decoration: none;
     font-family: arial;
+    font-size: 20px;
 }
 
 .home{
-    color: Green;
+    color: Lime;
     text-decoration: none;
     font-family: arial;
+    font-size: 20px;
 }
 
-/* search field */
+/* Button hover */
+.Galeries:hover{
+    background-color: Green;
+}
+
+.home:hover{
+    background-color: Green;
+}
+
+/* Formular */
 form.search input[type=text] {
     padding: 5px;
     font-size: 15px;
@@ -57,10 +70,14 @@ form.search button:hover {
 /*Bilder*/
 .veggiesimg{
     padding-top: 20px;
-    width: 800px;
     display: block;
     margin-left: 50px;
     margin-right: 80px;
+
+}
+
+.dia {
+    width: calc(100vw - 130px);
 }
 
 div.gallery {
@@ -70,10 +87,14 @@ div.gallery {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    background-image: url("Bilder/brokkoli.jpg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+div.gallery:hover {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
 }
 
 div.gallery:hover {
@@ -83,6 +104,16 @@ div.gallery:hover {
 div.gallery img {
     width: 100%;
     height: auto;
+}
+
+/*Image container*/
+
+.flex-container{
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+    display: flex;
+
 }
 
 
