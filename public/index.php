@@ -3,9 +3,17 @@
 <?php include('templates/nav.php'); ?>
 
 <div class="veggiesimg">
-    <img class="dia" src="Bilder/Veggies.jpg" alt="Veggies">
-    <button class="button-left" onclick="plusDivs(-1)">&#10094;</button>
-    <button class="button-right" onclick="plusDivs(+1)">&#10095;</button>
+    <img class="dia" src="Bilder/Veggies.jpg" alt="Veggies" >
+    <img class="dia" src="Bilder/haferflocken.jpg" alt="Carbs">
+    <img class="dia" src="Bilder/milchprodukt.jpg" alt="Protein">
+
+    <div class="bottommiddle" style="width:100%">
+        <button class="button-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="button-right" onclick="plusDivs(+1)">&#10095;</button>
+        <span class="border" onclick="currentDiv(1)"></span>
+        <span class="border" onclick="currentDiv(2)"></span>
+        <span class="border" onclick="currentDiv(3)"></span>
+    </div>
 </div>
 
 

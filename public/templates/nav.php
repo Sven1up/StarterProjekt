@@ -21,9 +21,14 @@
     </ul>
     <button onclick="myDropFunction()" class="burger" id="burger">
         <div id="myDropdown" class="dropdown-content">
-            <a href="public/vegi.php">Veggis</a>
-            <a href="public/carb.php">Carbs</a>
-            <a href="public/prot.php">Proteine</a>
+            <label class="burger1" for="toggle1">
+                <div class="top"></div>
+                <div class="meat"></div>
+                <div class="bottom"></div>
+            </label>
+            <a class="link1" href="public/vegi.php">Veggis</a>
+            <a class="link2" href="public/carb.php">Carbs</a>
+            <a class="link3" href="public/prot.php">Proteine</a>
         </div>
 
         <svg width="36" height="36" viewBox="0 0 36 36">
