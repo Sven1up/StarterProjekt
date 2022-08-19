@@ -4,7 +4,10 @@
 
 <div class="veggiesimg">
     <img class="dia" src="Bilder/Veggies.jpg" alt="Veggies">
+    <button class="button-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="button-right" onclick="plusDivs(+1)">&#10095;</button>
 </div>
+
 
 
 <div class="flex-container">

@@ -4,9 +4,6 @@
             <b><a class="home" href="/Home">Home</a></b>
         </li>
         <li>
-            <b><a class="Galeries"  href="public/Galerie">Galerie</a></b>
-        </li>
-        <li>
             <b><a class="Galeries"  href="public/vegi.php">Veggis</a></b>
         </li>
         <li>
