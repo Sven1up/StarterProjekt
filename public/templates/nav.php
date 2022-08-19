@@ -19,7 +19,13 @@
             </form>
         </li>
     </ul>
-    <button class="burger" id="burger">
+    <button onclick="myDropFunction()" class="burger" id="burger">
+        <div id="myDropdown" class="dropdown-content">
+            <a href="public/vegi.php">Veggis</a>
+            <a href="public/carb.php">Carbs</a>
+            <a href="public/prot.php">Proteine</a>
+        </div>
+
         <svg width="36" height="36" viewBox="0 0 36 36">
             <path class="line line1" d="M 6,8 H 30 C 30,8 32,8 30,24 30,26 30,28 30,28 L 9,9" />
             <path class="line line2" d="M 6,18 H 30" />

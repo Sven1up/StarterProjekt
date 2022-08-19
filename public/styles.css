@@ -23,7 +23,7 @@
 }
 
 nav{
-    background-color: Black;
+    background-color: #333;
     padding: 2px;
     position: relative;
     justify-content: space-between;
@@ -191,7 +191,7 @@ form.search button:hover {
 
 footer
 {
-    background-color: black;
+    background-color: #333;
     font-size:15px;
     color:white;
     font-family: arial;
