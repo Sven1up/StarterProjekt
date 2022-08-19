@@ -92,8 +92,6 @@ a {
     display: none;
 }
 
-
-
 .dropdown-content {
     width: 100%;
     background-color: #777;
@@ -114,7 +112,6 @@ a {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-
 
 .dropdown-content a:first-child {
     margin-top: 40px;
