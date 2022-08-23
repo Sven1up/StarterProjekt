@@ -57,7 +57,7 @@ nav{
 }
 
 
-/* ---  Burger Drop Down --- */ /* --- Baustelle --- */
+/* ---  Burger Drop Down --- */
 
 a {
     color: #fff;
@@ -178,17 +178,44 @@ a {
     border-radius: 8px;
 }
 
+
+
+/* --- Intro Dia Image Slide --- */
+.dia{
+    display:none;
+    width:100%;
+    width: calc(100vw - 130px);
+}
+
+.dot {
+    height:13px;
+    width:13px;
+    padding:0;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: inline-block;
+
+}
+
+.dot-nav{
+    
+}
+
+.bottommiddle{
+    display: flex;
+    position: relative;
+    top: -400px;
+    color: white;
+    font-size: 80px;
+    justify-content: space-between;
+}
+
 /* --- Bilder --- */
 .veggiesimg{
     padding-top: 20px;
     display: block;
     margin-left: 50px;
     margin-right: 80px;
-
-}
-
-.dia {
-    width: calc(100vw - 130px);
 }
 
 .gallery {
