@@ -10,25 +10,18 @@
             <b><a class="Galeries"  href="public/carb.php">Carbs</a></b>
         </li>
         <li>
-        <li>
             <b><a class="Galeries"  href="public/prot.php">Protein</a></b>
         </li>
-        <li>
-            <form class="search" action="">
-                <input type="text" placeholder="Search.." name="search"> <button type="submit">Search</button>
-            </form>
-        </li>
     </ul>
+
     <button onclick="myDropFunction()" class="burger" id="burger">
         <div id="myDropdown" class="dropdown-content">
+            <input id="toggle1" type="checkbox" />
             <label class="burger1" for="toggle1">
                 <div class="top"></div>
                 <div class="meat"></div>
                 <div class="bottom"></div>
             </label>
-            <a class="link1" href="public/vegi.php">Veggis</a>
-            <a class="link2" href="public/carb.php">Carbs</a>
-            <a class="link3" href="public/prot.php">Proteine</a>
         </div>
 
         <svg width="36" height="36" viewBox="0 0 36 36">
@@ -38,3 +31,9 @@
         </svg>
     </button>
 </nav>
+
+    <nav class="link1-menu">
+        <a class="link1" href="public/vegi.php">Veggis</a>
+        <a class="link1" href="public/carb.php">Carbs</a>
+        <a class="link1" href="public/prot.php">Proteine</a>
+    </nav>
