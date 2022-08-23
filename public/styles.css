@@ -74,22 +74,24 @@ a {
 
 .link1-menu {
     width: 100%;
-    background-color: black;
+    background-color: #333;
     margin: 0;
     display: -ms-grid;
     display: grid;
     grid-template-rows: 1fr repeat(4, 0.5fr);
     grid-row-gap: 25px;
-    padding: 0;
+    padding: 20px;
+    border: 2px solid lime;
+    float: right;
     list-style: none;
     clear: both;
     width: auto;
-    /*height: 0px;*/
     overflow: hidden;
     transition: height .4s ease;
     z-index: 120;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
+
 }
 
 .link1-menu a:first-child {
@@ -108,10 +110,13 @@ a {
 }
 
 .link1:hover {
-    background-color: rgb(61, 61, 61);
+    background-color: Black;
     color: Lime;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
 }
 
 /* --- Animation / SVG --- */
@@ -167,11 +172,17 @@ a {
 
 /* --- Button hover --- */
 .Galeries:hover{
-    background-color: Green;
+    background-color: coral;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
 }
 
 .home:hover{
-    background-color: Green;
+    background-color: royalblue;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
 }
 
 /* --- Formular --- */
