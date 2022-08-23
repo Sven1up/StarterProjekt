@@ -197,8 +197,12 @@ a {
 
 }
 
+.dot.white {
+    background-color: lime;
+}
+
 .dot-nav{
-    
+    padding-top: 300px;
 }
 
 .bottommiddle{
@@ -216,6 +220,7 @@ a {
     display: block;
     margin-left: 50px;
     margin-right: 80px;
+    margin-bottom: -300px;
 }
 
 .gallery {

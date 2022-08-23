@@ -9,11 +9,11 @@
 
     <div class="bottommiddle" style="width:100%">
         <div class="button-left" onclick="plusDivs(-1)">&#10094;</div>
-        <div class="dot-nav">
-            <div class="dot" onclick="currentDiv(1)"></div>
-            <div class="dot" onclick="currentDiv(2)"></div>
-            <div class="dot" onclick="currentDiv(3)"></div>
-        </div>
+            <div class="dot-nav">
+                <div class="dot" onclick="currentDiv(1)"></div>
+                <div class="dot" onclick="currentDiv(2)"></div>
+                <div class="dot" onclick="currentDiv(3)"></div>
+            </div>
         <div class="button-right" onclick="plusDivs(+1)">&#10095;</div>
     </div>
 </div>
