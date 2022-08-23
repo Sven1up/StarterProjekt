@@ -20,9 +20,11 @@
 
 <script>
     const burger = document.querySelector('.burger');
+    const navBurger = document.querySelector('.link1-menu');
 
     burger.addEventListener('click', () => {
         burger.classList.toggle('opened');
+        navBurger.classList.toggle('opened');
     })
 
 

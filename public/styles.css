@@ -64,12 +64,10 @@ a {
     text-decoration: none;
 }
 
-#toggle1 {
-    display: none;
-}
-
-#toggle1:checked ~ .link1-menu {
+.link1-menu.opened {
     height: 240px;
+    border: 2px solid lime;
+    padding: 20px;
 }
 
 .link1-menu {
@@ -80,9 +78,7 @@ a {
     display: grid;
     grid-template-rows: 1fr repeat(4, 0.5fr);
     grid-row-gap: 25px;
-    padding: 20px;
-    border: 2px solid lime;
-    float: right;
+    padding: 0px;
     list-style: none;
     clear: both;
     width: auto;
@@ -91,15 +87,10 @@ a {
     z-index: 120;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
-
-}
-
-.link1-menu a:first-child {
-    margin-top: 40px;
-}
-
-.link1-menu a:last-child {
-    margin-bottom: 40px;
+    height: 0;
+    position: absolute;
+    top: 77px;
+    right: 8px;
 }
 
 .link1 {
@@ -172,43 +163,19 @@ a {
 
 /* --- Button hover --- */
 .Galeries:hover{
-    background-color: coral;
+    background-color: black;
+    color: cyan;
     -webkit-border-radius: 9px;
     -moz-border-radius: 8px;
     border-radius: 8px;
 }
 
 .home:hover{
-    background-color: royalblue;
+    background-color: black;
+    color: white;
     -webkit-border-radius: 9px;
     -moz-border-radius: 8px;
     border-radius: 8px;
-}
-
-/* --- Formular --- */
-form.search input[type=text] {
-    padding: 5px;
-    font-size: 15px;
-    border: 1px solid grey;
-    float: left;
-    width: 200px;
-    background: #f1f1f1;
-    height: 30px;
-}
-
-form.search button {
-    width: 20%;
-    padding: 5px;
-    background: #32CD32;
-    color: White;
-    font-size: 13px;
-    border: 1px solid grey;
-    border-left: none;
-    height: 30px;
-}
-
-form.search button:hover {
-    background: #006400;
 }
 
 /* --- Bilder --- */

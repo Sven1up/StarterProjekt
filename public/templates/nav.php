@@ -16,7 +16,6 @@
 
     <button onclick="myDropFunction()" class="burger" id="burger">
         <div id="myDropdown" class="dropdown-content">
-            <input id="toggle1" type="checkbox" />
             <label class="burger1" for="toggle1">
                 <div class="top"></div>
                 <div class="meat"></div>
