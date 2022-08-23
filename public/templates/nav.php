@@ -4,13 +4,13 @@
             <b><a class="home" href="/Home">Home</a></b>
         </li>
         <li>
-            <b><a class="Galeries"  href="public/vegi.php">Veggis</a></b>
+            <b><a class="Galeries"  href="/vegi.php">Veggis</a></b>
         </li>
         <li>
-            <b><a class="Galeries"  href="public/carb.php">Carbs</a></b>
+            <b><a class="Galeries"  href="/carb.php">Carbs</a></b>
         </li>
         <li>
-            <b><a class="Galeries"  href="public/prot.php">Protein</a></b>
+            <b><a class="Galeries"  href="/prot.php">Protein</a></b>
         </li>
     </ul>
 

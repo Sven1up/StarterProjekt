@@ -31,14 +31,16 @@ nav{
     flex-direction: row;
 }
 
-/* --- Nav Dia --- */
+@media screen and (max-width: 640px) {
+  #navigation ul {
+      display: none;
+  }
+}
 
+/* --- Nav Dia --- */
 .dia{display:none}
 .button-left, .button-right, .border {cursor:pointer}
 .border {height:13px;width:13px;padding:0}
-
-
-
 
 /* --- Burger --- */
 .burger {
@@ -56,9 +58,7 @@ nav{
     border-bottom: 1px solid white;
 }
 
-
 /* ---  Burger Drop Down --- */
-
 a {
     color: #fff;
     text-decoration: none;
@@ -178,8 +178,6 @@ a {
     border-radius: 8px;
 }
 
-
-
 /* --- Intro Dia Image Slide --- */
 .dia{
     display:none;
@@ -264,7 +262,6 @@ a {
 }
 
 /* --- Footer --- */
-
 footer
 {
     background-color: #333;
