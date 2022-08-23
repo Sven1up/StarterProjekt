@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: linear-gradient(to left bottom, #40be56, #00bc92, #00b4c4, #00a8e2, #0096e4, #0099e7, #009ceb, #009fee, #00b8f8, #00d0fa, #00e6f7, #5ffbf1);
+}
+
 
 /* --- Nav leiste und buttons --- */
 #navigation > ul {
@@ -148,14 +152,14 @@ a {
 
 /* --- Nav Punkte --- */
 .Galeries{
-    color: #fbeaff;
+    color: #4A7BD6;
     text-decoration: none;
     font-family: arial;
     font-size: 20px;
 }
 
 .home{
-    color: #b39cd0;
+    color: #5FFBF1;
     text-decoration: none;
     font-family: arial;
     font-size: 20px;
@@ -213,7 +217,7 @@ a {
     display: flex;
     position: relative;
     top: -350px;
-    color: #c4fcef;
+    color: #10d7a6;
     font-size: 80px;
     justify-content: space-between;
 }
@@ -222,14 +226,15 @@ a {
 
 .h3-title{
     text-indent: 20px;
+    color: black;
 }
 
 .impsum{
     text-indent: 20px;
     padding: 50px;
     text-align: left;
-    background-color: lightblue;
-    border-left: 7px solid royalblue;
+    background-color: #72e7a1;
+    border-left: 7px solid darkgreen;
 }
 
 
