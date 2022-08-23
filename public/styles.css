@@ -181,8 +181,13 @@ a {
 /* --- Intro Dia Image Slide --- */
 .dia{
     display:none;
-    width:100%;
     width: calc(100vw - 130px);
+    height: 550px;
+    background-position: top;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .dot {

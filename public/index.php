@@ -3,9 +3,9 @@
 <?php include('templates/nav.php'); ?>
 
 <div class="veggiesimg">
-    <img class="dia" src="Bilder/Veggies.jpg" alt="Veggies" >
-    <img class="dia" src="Bilder/haferflocken.jpg" alt="Carbs">
-    <img class="dia" src="Bilder/milchprodukt.jpg" alt="Protein">
+    <div class="dia" style="background-image: url('Bilder/Veggies.jpg')"></div>
+    <div class="dia" style="background-image: url('Bilder/carbes.jpg')"></div>
+    <div class="dia" style="background-image: url('Bilder/rind.jpg')"></div>
 
     <div class="bottommiddle" style="width:100%">
         <div class="button-left" onclick="plusDivs(-1)">&#10094;</div>
