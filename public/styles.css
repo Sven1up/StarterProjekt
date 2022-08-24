@@ -44,7 +44,10 @@ nav{
         width: 97%;
         left: 7px;
         top: 50px;
-        text-align: center;
+    }
+
+    a.link1-menu {
+        text-align: left;
     }
 }
 
@@ -79,6 +82,7 @@ a {
     height: 240px;
     border: 2px solid #00c9a7;
     padding: 20px;
+
 }
 
 .link1-menu {
