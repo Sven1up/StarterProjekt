@@ -39,6 +39,13 @@ nav{
   #navigation ul {
       display: none;
   }
+
+    .link1-menu.opened {
+        width: 97%;
+        left: 7px;
+        top: 50px;
+        text-align: center;
+    }
 }
 
 /* --- Nav Dia --- */
@@ -75,7 +82,7 @@ a {
 }
 
 .link1-menu {
-    width: 100%;
+    width: 180px;
     background-color: #333;
     margin: 0;
     display: -ms-grid;
@@ -85,17 +92,18 @@ a {
     padding: 0px;
     list-style: none;
     clear: both;
-    width: auto;
     overflow: hidden;
     transition: height .4s ease;
     z-index: 120;
     -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
     height: 0;
     position: absolute;
     top: 77px;
     right: 8px;
+    left: calc(100vw - 187px);
 }
+
+
 
 .link1 {
     width: 100%;
